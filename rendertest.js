@@ -12,9 +12,9 @@ function setup()
 	bar2 = new ProgressBar(10,30,200,10);
 	bar3 = new ProgressBar(10,50,200,10);
 
-  button = createButton('submit');  
-  button.mousePressed(greet);	
-  button.position(220,30);
+  	button = createButton('submit');  
+  	button.mousePressed(greet);	
+  	button.position(220,30);
 }
 
 function greet() {

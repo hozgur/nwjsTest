@@ -15,13 +15,6 @@ function setup()
   button = createButton('submit');  
   button.mousePressed(greet);	
   button.position(220,30);
-  // Load native UI library
-
-
-
-  
-// Get the current window
-
 }
 
 function greet() {
